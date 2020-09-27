@@ -9,8 +9,6 @@ examples: [ "narrator=buddy",
 place.forest = new Place("a", "forest clearing");
 place.trail = new Place("the", "trail");
 
-place.trail.addView(place.trail,"on the trail");
-
 // ACTORS next
 actor.camper = new Actor("the", "camper", spatial.in, place.forest, pronoun.masculine);
 actor.buddy = new Actor("", "Buddy", spatial.in, place.forest, pronoun.masculine);
