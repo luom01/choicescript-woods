@@ -1,6 +1,7 @@
 
 
 var metadata = { title: "In the Woods", author: "Michelle Luo", date: "2020",
+instructions: "Click below or add your own parameters to the URL to change the “spin” and to create variation in the narrative discourse. You have to use the official names of “actors” for narrator and narratee, which can be found by looking at the code. Examples:",
 examples: [ "narrator=buddy",
 "order=retrograde,narratee=buddy",
 "speaking=after,narrator=camper" ] };
