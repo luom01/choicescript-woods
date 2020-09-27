@@ -38,8 +38,7 @@ var BARK = new Event(actor.buddy, "bark", thing.tree);
 BARK.setTemplate("[agent/s] [bark/v] at [object/o]");
 var CHUCKLES = new Event(actor.camper, "chuckle");
 var PET = new Event(actor.camper, "pet", actor.buddy);
-var RETURN = new Event([actor.camper, actor.buddy], "return", place.forest);
-RETURN.setTemplate("[agent/s] [return/v] to [object/o]");
+var RETURN = new Event(actor.camper, "return to", place.forest, "with", actor.buddy);
 
 var world = new World(place, actor, thing, eventSeq);
 
