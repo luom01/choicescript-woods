@@ -1,9 +1,9 @@
 
 
 var metadata = { title: "In the Woods", author: "Michelle Luo", date: "2020",
-examples: [ "narrator=teller",
-"order=retrograde,narratee=robber,narrator=guard,event_numbers",
-"speaking=after,narrator=teller,order=random,event_numbers,expression_numbers" ] };
+examples: [ "narrator=buddy",
+"order=retrograde,narratee=buddy",
+"speaking=after,narrator=camper" ] };
 
 // PLACES first
 place.forest = new Place("a", "forest clearing");
